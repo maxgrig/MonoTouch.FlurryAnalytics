@@ -1,6 +1,8 @@
 *.a
 *.dll
-.DS_Store
+.aS_Store
 *.userprefs
 obj/
 bin/
+!/MonoTouch.FlurryAnalytics.dll
+.DS_Store
