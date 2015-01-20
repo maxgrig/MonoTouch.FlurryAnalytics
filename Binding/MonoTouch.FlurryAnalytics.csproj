@@ -38,6 +38,9 @@
     <Compile Include="libFlurryAds_6.0.0.linkwith.cs">
       <DependentUpon>libFlurryAds_6.0.0.a</DependentUpon>
     </Compile>
+    <Compile Include="libFlurry_6.0.0.linkwith.cs">
+      <DependentUpon>libFlurry_6.0.0.a</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
@@ -48,5 +51,6 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
   <ItemGroup>
     <ObjcBindingNativeLibrary Include="libFlurryAds_6.0.0.a" />
+    <ObjcBindingNativeLibrary Include="libFlurry_6.0.0.a" />
   </ItemGroup>
 </Project>
