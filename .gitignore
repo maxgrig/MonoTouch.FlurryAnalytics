@@ -1,6 +1,5 @@
 *.a
 *.dll
-.aS_Store
 *.userprefs
 obj/
 bin/
