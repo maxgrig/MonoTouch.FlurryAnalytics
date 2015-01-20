@@ -117,7 +117,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\MonoTouch.FlurryAnalytics.csproj">
+    <ProjectReference Include="..\Binding\MonoTouch.FlurryAnalytics.csproj">
       <Project>{B488780B-7C75-4CED-B777-2848012883F5}</Project>
       <Name>MonoTouch.FlurryAnalytics</Name>
     </ProjectReference>
